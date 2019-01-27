@@ -402,6 +402,10 @@ span {
     text-transform: capitalize;
 }
 
+#about-us .about-content ul li .fa {
+    padding-right: 20px;
+}
+
 #about-us .about-content span {
     font-weight: 700;
     padding-right: 10px;
