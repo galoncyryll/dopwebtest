@@ -1,0 +1,174 @@
+/* RESETTERS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #fff;
+    color: #333;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+h2 {
+    color: #000;
+    font-weight: 600;
+}
+
+h4 {
+    color: #000;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    line-height: 2;
+}
+
+h5 {
+    color: #626262;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+a {
+    letter-spacing: 2px;
+    text-decoration: none;
+}
+
+ul {
+    letter-spacing: 1px;
+}
+
+li {
+    color: #626262 !important;
+    font-size: 13px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    line-height: 30px;
+    text-transform: capitalize;
+}
+
+p {
+    color: #505050;
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: 0.5px;
+    line-height: 2;
+    margin-bottom: 20px;
+}
+
+span {
+    letter-spacing: 1px;
+}
+
+.pull-left {
+    float: left;
+}
+
+.pull-right {
+    float: right;
+}
+/* HEADER */
+#header {
+    background: #fff;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    height: 48px;
+    z-index: 3;
+    transition: all 0.5s ease;
+}
+
+#header #logo {
+    padding: 6px 0 0 0;
+}
+
+#header #logo h1 {
+    color: #505050;
+    font-family: "Philosopher", sans-serif;
+    font-size: 26px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    margin: 0;
+}
+
+#header #logo h1 a {
+    color: #555;
+    line-height: 1;
+    display: inline-block;
+    text-decoration: none;
+}
+  
+#header #logo h1 a span {
+    color: #71c55d;
+}
+
+#header #logo img {
+    padding: 0;
+    margin: 0;
+}
+
+/* NAV MENU CONTAINER */
+.nav-menu, .nav-menu * {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.nav-menu > li {
+    margin-left: 10px;
+    float: left;
+    position: relative;
+    white-space: nowrap;
+}
+
+.nav-menu a {
+    padding: 8px 8px;
+    text-decoration: none;
+    display: inline-block;
+    color: #555;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    outline: none;
+    letter-spacing: 0;
+    transition: 0.3s;
+}
+
+.nav-menu li:hover > a, .nav-menu > .menu-active > a {
+    color: #71c55d;
+}
+
+/* superfish dropdown */
+.sf-arrows .sf-with-ul {
+    padding-right: 22px;
+}
+
+.li-dropdown ul {
+    margin: 0;
+    padding: 10px;
+    box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
+    background: #fff;
+}
+
+.li-dropdown ul li a {
+    padding: 5px 10px;
+    color: #333;
+    transition: 0.3s;
+    display: block;
+    font-size: 14px;
+    text-transform: none;
+}
+
+.nav-menu ul {
+    position: absolute;
+    display: none;
+    top: 100%;
+    left: 0;
+    z-index: 99;
+}
